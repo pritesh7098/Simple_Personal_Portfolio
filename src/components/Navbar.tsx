@@ -29,11 +29,10 @@ const Navbar = () => {
             <Tooltip content="Home">
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <HomeIcon
-                  className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${
-                    pathname == "/"
+                  className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/"
                       ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
                       : ""
-                  }`}
+                    }`}
                 />
               </div>
             </Tooltip>
@@ -43,26 +42,24 @@ const Navbar = () => {
             <Tooltip content="Projects">
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <CodeIcon
-                  className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${
-                    pathname == "/projects"
+                  className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/projects"
                       ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
                       : ""
-                  }`}
+                    }`}
                 />
               </div>
             </Tooltip>
           </Link>
 
-  
+
           <Link href="/about">
             <Tooltip content="About">
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <IoPerson
-                  className={`w-[18px] h-[18px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${
-                    pathname == "/about"
+                  className={`w-[18px] h-[18px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/about"
                       ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
                       : ""
-                  }`}
+                    }`}
                 />
               </div>
             </Tooltip>
@@ -75,7 +72,7 @@ const Navbar = () => {
           />
 
           <Link
-            href="https://drive.google.com/file/d/1RFyHIwq0xZJrIqj3t0xsdCSt04sY_1Cv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1buE5qwsQA7NenfC9mYAvZwmVQVggaVsd/view?usp=sharing"
             target="_blank"
             underline="none"
           >
