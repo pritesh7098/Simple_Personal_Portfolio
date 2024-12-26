@@ -39,8 +39,8 @@ export default SimpleProjectCard;
 
 const data: Project[] = [
     {
-        logo: '/adobe.png',
-        title: "Textify: Adobe-Funded Add-On for Adobe Express",
-        description: "Textify is an Adobe-funded add-on that enables seamless text extraction from images in Adobe Express, supporting formats like PNG, JPEG, and SVG to enhance creative workflows.",
+        logo: '/Second_Brain.png',
+        title: "Building - Second Brain App",
+        description: "Currently building a second brain app. An app where you can come, add content from various sources (Twiitter, Youtube, Google docs) and store it in a centralized place. ",
     }
 ]
