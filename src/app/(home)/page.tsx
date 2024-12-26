@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-24 max-lg:mt-16">
+      <div className="w-full flex justify-center mt-20 max-lg:mt-16">
         <ProjectCardList />
       </div>
 
