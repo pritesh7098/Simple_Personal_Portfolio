@@ -10,21 +10,21 @@ import ConditionalFooter from "./ConditionalFooter";
 import Provider from "@/context/Provider";
 
 export const metadata: Metadata = {
-  title: "Fardeen Mansoori - Full Stack Developer",
-  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore my portfolio to see my projects and skills.",
-  keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
-  authors: [{ name: "Fardeen Mansoori" }],
+  title: "Pritesh Dhanad - Software Developer",
+  description: "Pritesh Dhanad is a Software Developer specializing in building impactful web applications from scratch. Explore my portfolio to see my projects and skills.",
+  keywords: "Pritesh Dhanad, Software Developer, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
+  authors: [{ name: "Pritesh Dhanad" }],
   openGraph: {
-    title: "Fardeen Mansoori - Full Stack Developer",
-    description: "Explore the portfolio of Fardeen Mansoori, showcasing innovative web applications and development skills.",
-    url: "https://fardeenmansoori.vercel.app",
-    siteName: "Fardeen Mansoori Portfolio",
+    title: "Pritesh Dhanad -  Software Developer ",
+    description: "Explore the portfolio of Pritesh Dhanad, showcasing innovative web applications and development skills.",
+    url: "",
+    siteName: "Pritesh Dhanad Portfolio",
     images: [
       {
-        url: "https://ucarecdn.com/ed06f135-d3a8-473d-8057-c7bf634be79b/-/preview/1000x996/",
+        url: "https://ucarecdn.com/c73987ce-d659-4b58-bfba-59d672603d70/-/preview/999x968/",
         width: 400,
         height: 400,
-        alt: "Fardeen Mansoori Portfolio",
+        alt: "Pritesh Dhanad Portfolio",
       },
     ],
     type: "website",
