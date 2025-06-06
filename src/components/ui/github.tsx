@@ -16,17 +16,14 @@ export const GithubGraph = ({
 }: GithubGraphProps) => {
   const [contribution, setContribution] = useState<Activity[]>([]);
   const [loading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
 
   const fetchData = useCallback(async () => {
     try {
       const contributions = await fetchContributionData(username);
       setContribution(contributions);
-      setError(null);
     } catch (error) {
-      // Store the error message in state instead of throwing
-      setError(`Error fetching contribution data: ${error}`);
-      setContribution([]);
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      throw Error(`Error fetching contribution data: ${errorMessage}`);
     } finally {
       setIsLoading(false);
     }
@@ -39,11 +36,6 @@ export const GithubGraph = ({
   const label = {
     totalCount: `{{count}} contributions in the last year`,
   };
-
-  // Show error message if there's an error
-  if (error && !loading) {
-    return <div className="text-red-500">{error}</div>;
-  }
 
   return (
     <>
@@ -66,14 +58,12 @@ export const GithubGraph = ({
     </>
   );
 };
-
 async function fetchContributionData(username: string): Promise<Activity[]> {
-  const response = await fetch(`https://github.vineet.tech/api/${username}`);
-  
-  if (!response.ok) {
-    throw new Error("Error fetching contribution data");
-  }
-  
+  const response = await fetch(`https://github.vineet.pro/api/${username}`);
   const responseBody = await response.json();
+
+  if (!response.ok) {
+    throw Error("Erroring fetching contribution data");
+  }
   return responseBody.data;
 }
