@@ -38,10 +38,7 @@ export default function Home() {
             <h1
               className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}
             >
-              "Passionate Software Developer with a proven ability to solve
-              complex problems through elegant and efficient code. I specialize
-              in building high-quality, scalable applications across diverse
-              platforms using cutting-edge technologies."
+              Experienced Software Developer with a strong passion for teaching and a deep love for reading. <br /> I believe in the power of code to solve real-world problems, the value of sharing knowledge, and the importance of staying curious.
             </h1>
           </div>
           <div className="mt-10">
@@ -65,7 +62,7 @@ export default function Home() {
       </div>
 
       <div className="w-full flex flex-col items-center mt-8 mb-4 gap-4 max-sm:hidden">
-        <Title title="GitHub Contributions" />
+        <Title title="Code Activity 🔀" />
         <Link href={"https://github.com/pritesh7098"} target="_blank">
           <GithubGraph
             username="pritesh7098"
@@ -83,6 +80,32 @@ export default function Home() {
 
       <div className="w-full flex justify-center mt-4">
         <Skills />
+      </div>
+
+      <div className="w-full flex justify-center mt-4"> 
+        <Experience
+          company_link={"https://www.linkedin.com/company/rktech-solutions/posts/?feedView=all"}
+          company_logo={"/NIIT.jpeg"}
+          company_name={"NIIT Foundation."}
+          duration={"Jan 2025 - Mar 2025"}
+          job_title={"Web Development Instructor"}
+          description={
+            "Delivered web development training to college students covering HTML, CSS, JavaScript, and modern frameworks. Developed strong teaching and public speaking skills while simplifying complex technical concepts for diverse audiences. Enhanced personal technical knowledge and communication abilities through hands-on instruction and mentoring of emerging tech talent."}
+        />
+
+
+      </div>
+
+      <div className="w-full flex justify-center mt-4">
+        <Experience
+          company_link={"https://www.linkedin.com/company/rktech-solutions/posts/?feedView=all"}
+          company_logo={"/RKTech.jpeg"}
+          company_name={"RKTech Solutions PVT LTD"}
+          duration={"Apr 2024 - Dec 2024"}
+          job_title={"Freelance Frontend Developer"}
+          description={
+            "Developed a dynamic web application for a Poland-based tech company using Next.js and Tailwind CSS. Created reusable UI components, designed responsive interfaces, and enhanced UX through effective cookie management and SEO practices. Collaborated with clients and team via GitHub, participating in code reviews to ensure project alignment"}
+        />
       </div>
 
       <div className="w-full flex justify-center mt-4">
