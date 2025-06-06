@@ -30,8 +30,8 @@ const Navbar = () => {
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <HomeIcon
                   className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/"
-                      ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
-                      : ""
+                    ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
+                    : ""
                     }`}
                 />
               </div>
@@ -43,8 +43,8 @@ const Navbar = () => {
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <CodeIcon
                   className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/projects"
-                      ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
-                      : ""
+                    ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
+                    : ""
                     }`}
                 />
               </div>
@@ -57,8 +57,8 @@ const Navbar = () => {
               <div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
                 <IoPerson
                   className={`w-[18px] h-[18px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == "/about"
-                      ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
-                      : ""
+                    ? "dark:!text-[#FFC83D] !text-[#cc9e2b]"
+                    : ""
                     }`}
                 />
               </div>
