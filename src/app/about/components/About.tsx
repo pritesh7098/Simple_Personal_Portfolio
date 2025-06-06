@@ -1,78 +1,43 @@
-import React from "react";
-import { Github, Linkedin, Mail } from "lucide-react";
+import React from 'react';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-white dark:from-black dark:to-black">
-      <div className="max-w-5xl mx-auto p-8">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-          {/* Left Column - Photo & Social Links */}
-          <div className="w-full md:w-1/3 flex flex-col items-center space-y-6">
-            <img
-              src="fardeen.jpg"
-              alt="Profile"
-              className="w-64 h-66 object-cover rounded-full shadow-lg border-4"
-            />
+    <div className="min-h-screen bg-black text-white py-10 px-4">
+      <div className="max-w-3xl mx-auto">
+        {/* Elegant Header with Gradient Underline */}
+        <div className="mb-10">
+          <h1 className="text-5xl font-bold mb-4">
+            The Human Behind the Code 👨‍💻
+          </h1>
+          <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+        </div>
 
-            {/* Social Links */}
-            <div className="flex gap-6">
-              <a
-                href="https://github.com/pritesh7098"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400"
-              >
-                <Github className="w-6 h-6" />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourusername"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400"
-              >
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href="mailto:your@email.com"
-                className="text-gray-600 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400"
-              >
-                <Mail className="w-6 h-6" />
-              </a>
-            </div>
-          </div>
+        {/* Content Section with Elegant Typography */}
+        <div className="space-y-6">
+          <p className="text-2xl font-light text-blue-400">
+            Who Transforming <span className="font-medium">complex challenges</span> into <span className="font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">elegant solutions</span> through code.
+          </p>
 
-          {/* Right Column - Content */}
-          <div className="w-full md:w-2/3">
-            <h1 className="text-5xl font-extrabold text-gray-800 dark:text-white mb-6">
-              About Me
-            </h1>
+          <p className="text-xl leading-relaxed">
+            I'm{" "}
+            <span className="font-semibold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Pritesh Dhanad
+            </span>
+            , a <span className="font-medium text-blue-300">software developer</span> based in Pune, dedicated to crafting <span className="font-medium bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">exceptional digital experiences</span>. With a foundation in modern web technologies and a year of hands-on experience, I specialize in building innovative solutions that bridge the gap between user needs and technical excellence.
+          </p>
 
-            <div className="space-y-6">
-              <p className="text-xl text-yellow-500">Thanks for stopping by! Here's a bit about me.</p>
-              <p className="text-xl text-gray-700 dark:text-gray-300">
-                Hello! I'm{" "}
-                <span className="font-semibold text-sky-500 ">Pritesh Dhanad</span>,
-                a passionate software developer based in Shirdi. With almost
-                a year of experience in software development, I specialize in creating
-                innovative and user-centric digital solutions.
-              </p>
+          <div className="space-y-5 text-gray-300">
+            <p className="text-lg leading-relaxed">
+              I previously worked as a <span className="font-medium text-white">Frontend Developer</span> in the EdTech sector and startup ecosystem, where I discovered my passion for <span className="font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">teaching and mentoring</span>. This naturally led me to become a <span className="font-medium text-white">Web Development Trainer</span> at NIIT Foundation, one of India's leading educational organizations. My technical expertise spans across the <span className="font-medium text-blue-300">full stack</span>, with a particular focus on <span className="font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">React, TypeScript, and modern JavaScript</span> frameworks. I have a proven track record of delivering responsive, scalable applications that meet both user needs and business objectives.
+            </p>
 
-              <p className="text-lg text-gray-600 dark:text-gray-400">
-                My journey in technology is driven by the belief that great
-                software can transform ideas into meaningful experiences. I
-                combine technical expertise with creative problem-solving to
-                build scalable, efficient, and elegant solutions.
-              </p>
+            <p className="text-lg leading-relaxed">
+              Beyond the world of coding, I maintain a <span className="font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">holistic approach</span> to personal and professional growth. As an avid <span className="font-medium text-white">cricket enthusiast</span>, I've learned valuable lessons about teamwork and strategy that I bring to my development projects. My passion for <span className="font-medium text-blue-300">reading</span> keeps me informed about industry trends and innovations, while my continuous exploration of <span className="font-medium bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">new technologies</span> ensures I stay at the forefront of digital evolution.
+            </p>
 
-              <p className="text-lg text-gray-600 dark:text-gray-400">
-                When I'm not coding, you'll find me playing cricket, reading books,
-                or exploring the latest tech trends. I'm always excited to collaborate
-                on interesting projects and connect with fellow developers.
-              </p>
-
-              <p className="text-lg text-gray-600 dark:text-gray-400">
-                Let's connect and create something amazing together!
-              </p>
-            </div>
-
-            {/* Border before footer */}
-            <div className=" border-t-2 border-gray-300 my-8 w-full"></div>
+            <p className="text-lg font-medium text-white mt-8 border-l-4 border-blue-500 pl-4">
+              I'm always open to discussing <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">new projects</span>, innovative ideas, or potential <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">collaborations</span>. Let's connect and explore how we can create impactful digital solutions together.
+            </p>
           </div>
         </div>
       </div>
