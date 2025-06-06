@@ -9,7 +9,7 @@ const Contact = () => {
   
   return (
     <div className="w-full px-64 max-[1285px]:px-52 max-lg:px-4 max-sm:px-2 flex flex-col items-center mt-6 pb-8">
-      <Title title="Get in Touch" />
+      <Title title="Let's Connect 🤝" />
 
       <div
         className={`w-full flex flex-col gap-3 mt-6 px-36 max-sm:px-4 ${bricolage_grotesque}`}
