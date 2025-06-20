@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-20 max-lg:mt-16">
+      <div className="w-full flex justify-center mt-16 max-lg:mt-12">
         <ProjectCardList />
       </div>
 
@@ -78,11 +78,11 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="w-full flex justify-center mt-4">
+      <div className="w-full flex justify-center mt-10">
         <Skills />
       </div>
 
-      <div className="w-full flex justify-center mt-4"> 
+      <div className="w-full flex justify-center mt-4">
         <Experience
           company_link={"https://www.linkedin.com/company/rktech-solutions/posts/?feedView=all"}
           company_logo={"/NIIT.jpeg"}
